@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+body{
+    background-color: rgb(245, 226, 212);
+    font-family: "Young Serif", serif;
+    font-style: normal;
+}
+.container {
+    display:flex;
+    background-color: white;
+    margin:5px 100px 3px 100px;
+    padding:55px 52px 55px 50px;
+    border-radius: 30px;
+    background-position: relative;
+    flex-direction: column;
+}
+.prep{
+    background-color: rgb(255, 244, 252);
+    padding: 5px 5px 5px 20px;
+    border-radius: 20px;
+}
+.prep h3{
+    color: rgb(107, 4, 107);
+}
+ul,ol{
+    display: flex;
+    flex-direction: column;
+    gap:12px;
+}
+.prep li::marker {
+    color: rgb(107, 4, 107);
+}
+li::marker {
+    color:rgb(151, 37, 37);
+}
+h2{
+    color:rgb(151, 37, 37);
+}
+li::marker{
+    font-weight: bold;
+}
+table {
+
+    border-spacing: 0; 
+    width: 100%; 
+    border-collapse: separate;
+}
+
+td {
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid #ccc;
+}
+
+td:first-child {
+    padding-left: 30px;
+}
+table td:not(:first-child) {
+    padding-left: 20px; 
+}
